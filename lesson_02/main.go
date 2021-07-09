@@ -1,12 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"main/fib_sequence"
-)
+import "sequences/fibonacci"
 
 func main() {
-	fmt.Println("Fib nums:")
-	fib_sequence.FibNums(6)
-	defer fmt.Println("Complete")
+	fibonacci.Print(6)
 }
