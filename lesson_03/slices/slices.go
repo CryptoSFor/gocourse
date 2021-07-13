@@ -1,23 +1,31 @@
 package slices
 
-func MaxLength(slice []string) string {
-	max := len(slice[0])
-	index := 0
-	for i := 1; i < len(slice); i++ {
-		if len(slice[i]) > max {
-			max = len(slice[i])
-			index = i
+func LongestWord(s []string) string {
+	max := SymbolsCount(s[0])
+	ind := 0
+	for i := 1; i < len(s); i++ {
+		if SymbolsCount(s[i]) > max {
+			max = SymbolsCount(s[i])
+			ind = i
 		}
 	}
-	return slice[index]
+	return s[ind]
 }
 
-func Reverse(slice []int64) []int64 {
-	length := len(slice)
-	reverse := make([]int64, length)
-	for k, v := range slice {
-		ind := length - k - 1
-		reverse[ind] = v
+func SymbolsCount(s string) int {
+	c := 0
+	for range s {
+		c += 1
 	}
-	return reverse
+	return c
+}
+
+func Reverse(s []int64) []int64 {
+	l := len(s)
+	r := make([]int64, l)
+	for k, v := range s {
+		ind := l - k - 1
+		r[ind] = v
+	}
+	return r
 }

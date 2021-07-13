@@ -5,19 +5,18 @@ import (
 	"sort"
 )
 
-func SortKeys(mapa map[int]string) []int {
+func SortKeys(m map[int]string) []int {
 	keys := []int{}
-	for k := range mapa {
+	for k := range m {
 		keys = append(keys, k)
 	}
 	sort.Ints(keys)
-
 	return keys
 }
 
-func PrintSorted(mapa map[int]string) {
-	keys := SortKeys(mapa)
+func PrintSorted(m map[int]string) {
+	keys := SortKeys(m)
 	for _, v := range keys {
-		fmt.Printf("%v ", mapa[v])
+		fmt.Printf("%v ", m[v])
 	}
 }
