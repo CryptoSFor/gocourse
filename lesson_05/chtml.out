@@ -1,0 +1,24 @@
+mode: set
+figures/circle.go:13.41,14.18 1 1
+figures/circle.go:14.18,16.3 1 1
+figures/circle.go:16.8,18.3 1 1
+figures/circle.go:21.46,22.18 1 1
+figures/circle.go:22.18,24.3 1 1
+figures/circle.go:24.8,26.3 1 1
+figures/circle.go:29.33,30.18 1 1
+figures/circle.go:30.18,32.3 1 1
+figures/circle.go:32.8,34.3 1 1
+figures/main.go:5.13,13.2 4 0
+figures/main.go:15.29,19.21 3 0
+figures/main.go:23.2,24.22 2 0
+figures/main.go:19.21,21.3 1 0
+figures/main.go:24.22,26.3 1 0
+figures/rectangle.go:13.44,14.33 1 1
+figures/rectangle.go:14.33,16.3 1 1
+figures/rectangle.go:16.8,18.3 1 1
+figures/rectangle.go:21.49,22.33 1 1
+figures/rectangle.go:22.33,24.3 1 1
+figures/rectangle.go:24.8,26.3 1 1
+figures/rectangle.go:29.36,30.33 1 1
+figures/rectangle.go:30.33,32.3 1 1
+figures/rectangle.go:32.8,34.3 1 1
